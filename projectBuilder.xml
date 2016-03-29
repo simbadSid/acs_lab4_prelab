@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+	
+	
+	
+<project name="acs_lab4_prelab.makejar" default="makejar" basedir=".">
+  <target name ="makejar" description="Create a jar for the acs_lab4_prelab project">
+    <jar jarfile="acs_lab4_prelab.jar" includes="*.class" basedir="bin"/>
+  </target>
+</project>
+
+
